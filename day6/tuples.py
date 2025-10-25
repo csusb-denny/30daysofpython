@@ -17,3 +17,14 @@ last_index = len(fruits) - 1
 last_fruit = fruits[last_index]  # 'cherry'
 
 
+#item exists
+'item2' in tpl #returns true
+
+print('apple' in fruits)  # True
+print('orange' in fruits)  # False
+
+
+#joining two tuples
+tpl1 =  ('a', 'b', 'c')
+tpl2 =  (1, 2, 3)
+combined_tpl = tpl1 + tpl2  # ('a', 'b', 'c', 1, 2, 3)
